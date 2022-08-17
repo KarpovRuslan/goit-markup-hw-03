@@ -1,0 +1,240 @@
+:root {
+  --logo-color: #2196f3;
+  --logo-sec-color: #000000;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --main-bkgrd-color: #ffffff;
+  --second-bkgrd-color: #2f303a;
+  --third-bkgrd-color: #f5f4fa;
+  --link-footer-color: rgba(255, 255, 255, 0.6);
+  --button-hero-active: #188ce8;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--main-bkgrd-color);
+}
+ul {
+  list-style: none;
+}
+
+/* лого */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-sec-color);
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--logo-color);
+}
+
+/* Навігація сторінки */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.link-active {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--logo-color);
+}
+
+.link-contacts {
+  color: var(--second-text-color);
+  text-decoration: none;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--logo-color);
+}
+
+/* секція Герой */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-bkgrd-color);
+}
+
+.hero {
+  background-color: var(--second-bkgrd-color);
+  text-align: center;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--main-bkgrd-color);
+  background-color: var(--logo-color);
+  cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background-color: var(--button-hero-active);
+}
+/* секція Особливості */
+.section-advantages h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-advantages p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-text-color);
+}
+
+/* секція Чим ми займаємося */
+.our-occupation {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* секція Наша команда */
+.our-team {
+  background-color: var(--third-bkgrd-color);
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.members h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.members p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.members li {
+  background: var(--main-bkgrd-color);
+}
+
+/* Секція footer */
+.footer {
+  background-color: var(--second-bkgrd-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-bkgrd-color);
+  text-decoration: none;
+}
+
+.link-address {
+  font-style: normal;
+  color: var(--main-bkgrd-color);
+  text-decoration: none;
+}
+
+.link-footer {
+  font-style: normal;
+  color: var(--link-footer-color);
+  text-decoration: none;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--logo-color);
+}
+
+/* розмітка portfolio.html */
+/* кнопки */
+.buttons-primary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-bkgrd-color);
+  background-color: var(--logo-color);
+  cursor: pointer;
+}
+.buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-text-color);
+  background-color: var(--third-bkgrd-color);
+  cursor: pointer;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: var(--main-bkgrd-color);
+  background-color: var(--logo-color);
+}
+
+.company-description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.company-division {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--second-text-color);
+  font-style: normal;
+}
+
+.gallery-items {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
