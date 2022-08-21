@@ -21,10 +21,6 @@ ul {
   margin-bottom: 0;
 }
 
-img {
-  display: block;
-}
-
 :root {
   --logo-color: #2196f3;
   --logo-sec-color: #000000;
@@ -42,7 +38,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: var(--main-bkgrd-color);
-  margin: 0;
 }
 ul {
   list-style: none;
@@ -60,12 +55,6 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /* лого */
@@ -209,10 +198,6 @@ img {
   color: var(--second-text-color);
 }
 
-.section-ul {
-  display: flex;
-}
-
 .occupation {
   padding-top: 0;
 }
@@ -224,6 +209,10 @@ img {
   text-align: center;
 
   padding-bottom: 50px;
+}
+
+.section-ul {
+  display: flex;
 }
 
 .section-ul .item + .item {
