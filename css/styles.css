@@ -31,6 +31,7 @@ ul {
   --third-bkgrd-color: #f5f4fa;
   --link-footer-color: rgba(255, 255, 255, 0.6);
   --button-hero-active: #188ce8;
+  --card-set-gap: 30px;
 }
 
 body {
@@ -393,8 +394,8 @@ img {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
 }
 
 .gallery-items {
@@ -403,8 +404,9 @@ img {
 }
 
 .gallery-item {
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
 .gallery-block {
